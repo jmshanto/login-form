@@ -1,0 +1,44 @@
+body {
+    background-image: url('01.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.registration-form h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fffafa;
+}
+
+.registration-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 80px;
+    background-color: rgba(243, 237, 237, 0);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(208, 187, 187, 0.915);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #d5c7c7; 
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bfacacc3;
+    color: #cdacac;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #097f0d;
+    color: rgb(250, 252, 251);
+    border: none;
+    cursor: pointer;
+}
